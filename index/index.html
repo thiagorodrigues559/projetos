@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(209, 245, 232);
+        }
+
+        .menu {
+            position: absolute;
+                left: 1%;
+            width: 98%; 
+            background: #937676;    
+            display: flex;          
+            justify-content: left;
+            padding: 0px 0px;
+        }
+
+        li {
+            list-style: none;
+            display: inline;
+        }
+
+        a {
+            padding: 16px;
+            color: rgb(211, 188, 210);
+            font: 1,5em tahoma;
+        }
+
+        a:hover {
+            color: blueviolet;
+            padding: 16px;
+            font: 1,5em tahoma;
+        }
+
+        #pagina {
+            position: absolute;
+            width: 97%;
+            left: 1%;
+            top: 12%;
+            height: 86%;
+            border: firebrick 10px solid;
+
+        }
+        
+      #letra {
+        top: 12%;
+      }
+    </style>
+</head>
+<body>
+   
+
+    <div class="menu">
+        <ul>
+            <li><a href="index.html" >Inicio</a></li>
+            <li><a href="table.html" target="Inicio">Tabela</a></li>
+            <li><a href="formulario.html" target="Inicio">Formulario</a></li>
+        </ul>
+    </div>
+    
+    <div id="pagina">
+        <iframe width="98%" height="98%" name="Inicio" frameborder="0"></iframe>
+    </div>
+    
+</body>
+</html>

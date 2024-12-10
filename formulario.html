@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <form action="formulario.php" method="post">
+        <p>
+    <label for="NOME">NOME</label>
+    <input type="text" id="NOME"name = "NOME" required>
+        </p>
+        <p>
+    <label for="Email">Email</label>
+    <input type="text" id="Email" name="Email" required>
+        </p>    
+        <p>
+    <label for="Telefone">Telefone</label>
+    <input type="text" id="Telefone" name="Telefone" required>        
+        </p>
+        <p>
+    <label for="UF">UF</label>
+            <select name="UF" id="UF">UF
+
+                <option value="MG">MG</option>
+            <option value="SP">SP</option>
+            <option value="RJ">RJ</option>
+            <option value="SC">SC</option>
+            <option value="MT">MT</option>
+            <option value="AM">AM</option>
+            <option value="AP">AP</option>
+            <option value="RS">RS</option>
+            <option value="PR">PR</option>
+            <option value="ES">ES</option>
+            <option value="BA">BA</option>
+            <option value="MA">MA</option>
+            </select>
+            <button type="button">enviar</button>
+            
+            
+        </p>
+
+</form>
+    
+</body>
+</html>

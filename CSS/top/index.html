@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .menu {
+            position: absolute;
+                left: 1%;
+           width: 98%;     
+                background: #444;
+                display: flex;
+                justify-content: left;
+                padding: 0px 0px;
+        }
+
+        li {
+            list-style: none;
+            display: inline;
+
+        }
+
+        a{
+            padding: 16px;
+            color: #daa520;
+            font: 1.5em Tahoma;
+        }
+        a:hover {
+            padding: 16px;            
+            color: red;
+            font: 1.5em Tahoma;
+            text-decoration: none;
+        }
+
+        #conteudo {
+            position:absolute;
+                width: 98%;
+				 left: 1%;
+				 height: 87%;
+				 top: 12%;
+				 border: red 10px solid;
+                    
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <ul>
+            <li><a href="index.html" >Home</a></li>
+                 <li><a href="Contato.html" target="Cadrastro">contato</a></li>
+                 <li><a href="Cadrastro.html" target="Cadrastro">Cadrastro</a></li>
+                 <li><a href="Video.html" target="Cadrastro">Video</a></li>
+                 <li><a href="Sobre.html" target="Cadrastro">Sobre</a></li>
+        </ul>
+    </div>
+
+    <div id ="conteudo">
+        <iframe width="100%" height="100%"   name="Cadrastro" frameborder="0" ></iframe>
+        
+     
+    </div>
+</body>
+</html>

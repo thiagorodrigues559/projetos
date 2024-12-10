@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    div {
+        position: absolute;
+            width: 25%;
+            height: 40%;
+            top: 22%;
+            left: 38%;
+    }
+        
+
+        
+    </style>
+</head>
+<body>
+    <div>
+    <form action="formulario.php" method="post">
+        <p>
+        <label for="nome">nome</label>
+        <input type="text" id="nome" required>
+        </p>
+        <p>
+        <label for="genero">genero</label>
+            <select name="genero" id="" >
+                <option value="masculino">masculino</option>
+                <option value="feminino">feminino</option>
+            </select>
+        </p>
+        <p>
+            <label for="Estado">Estado</label>
+            <select name="Estado" id="">
+                <option value="MG">MG</option>
+                <option value="SP">SP</option>
+                <option value="SC">SC</option>
+                <option value="AM">AM</option>
+                <option value="GO">GO</option>
+                <option value="BA">BA</option>
+            </select>
+        </p>
+        <P>
+            <label for="CPF">CPF</label>
+            <input type="text" id="CPF" required>
+        </P>
+        <p>
+            <label for="Email">Email</label>
+            <input type="text" id="Email" required>
+        </p>
+        <button type="button">enviar</button>
+    </div>
+    </form>
+</body>
+</html>

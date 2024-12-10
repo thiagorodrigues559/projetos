@@ -1,0 +1,43 @@
+h1{
+    text-align: center;color: gray;
+}
+
+
+h2{
+    color: gray;
+}
+
+p{
+    text-align:justify ; 
+}
+
+
+img{
+    width:40% ; height: auto; border:10%;
+}
+
+label{
+    color: red;
+    align-items: center;
+    display: block;
+    font-size:60% ;
+    margin-bottom:auto ;
+   
+}
+
+textarea{
+    width: 100%;
+    pad: 10px; ;
+    margin: auto;
+    border-radius:4px ;
+    font-size: large;
+}
+
+  
+
+     
+
+
+
+
+

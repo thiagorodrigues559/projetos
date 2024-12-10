@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            position: absolute;
+            width: 25%;
+            height: 40%;
+            top: 22%;
+            left: 38%;
+            background-color: #f8f8ff;
+            border:50% silver solid;
+            padding: auto;
+            border-radius: 12%;
+        }
+        body{
+            background-color: wheat;
+
+        }
+        a:link {
+            color: aqua;
+            text-decoration: none;
+        }
+        a:hover {
+            color: azure;
+            text-decoration: none;
+            
+        }
+        p{
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <form action="prefeitura.php" method="post">
+            <p>
+                <label for="Nome">Nome</label>
+                <input type="text" id="Nome"name = "Nome" required>
+            </p>
+            <hr>
+            <p>
+                <label for="Email">Email</label>
+                <input type="text" id="Email" name="Email" required>
+            </p>
+            <hr>
+            <p>
+                <label for="CPF">CPF</label>
+                <input type="text" id="CPF" name="CPF" required>
+            </p>
+            <hr>
+            <a href="pre3.html" ><input type="button" value="login" ></a>
+        </form>
+    </div>
+</body>
+</html>

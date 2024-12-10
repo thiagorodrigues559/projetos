@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head><style>
+    table {
+        margin: 0 auto;
+                width: 420px;
+    }
+    
+    td {
+        padding: 6px;
+    }
+
+    input {
+        width: 100%;
+                border: 2px solid rgb(194, 241, 124);
+                border-radius: 5px;
+    }
+
+    input:hover {
+            width: 100%;
+                border: 20px solid rgb(136, 243, 120);
+                border-radius: 5px;
+    }
+
+    select {
+        width: 100%;
+        border: 20px solid rgb(183, 251, 173);
+        border-radius: 5px;
+
+    }
+
+    #Cadastrar {
+       
+                width: 50%;
+                border-radius: 5px;
+                background-color: rgb(156, 200, 228);
+                color: rgb(0, 0, 0);
+                border: 20px solid rgb(183, 251, 173);
+    }
+
+    #Cadastrar:hover {
+        width: 50%;
+        border-radius: 5px;
+        background-color: aliceblue;
+        cursor: pointer;
+    }
+
+    #botao {
+        text-align: right;
+        padding: 6px;
+    }
+
+        fieldset {
+            background-color: rgb(203, 220, 231);
+            border-radius: 12px solid;
+        }
+</style>
+<body>
+    <form action="Cadastro.php" method="post">
+        <fieldset>
+            <table>
+                <tr>
+                    <td><label for="Nome">Nome</label></td>
+                    <td><input type="text" required></td>
+                </tr>
+
+                <tr>
+                    <td><label for="Email">Email</label></td>
+                    <td><input type="email" required></td>
+                </tr>
+
+                <tr>
+                    <td><label for="Animal">Animal</label></td>
+                    <td><input type="text" required></td>
+                </tr>
+
+                <tr>
+                    <td>UF</td>
+                    <td>
+                        <select name="" id="">
+                            <option value="1">ES</option>
+                            <option value="2">MG</option>
+                            <option value="3">RJ</option>
+                            <option value="4">SC</option>
+                            <option value="5">SP</option>
+                        </select>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td colspan="2" id="botao">
+                        <input type="submit" value="Cadastrar" id="Cadastrar">
+
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>

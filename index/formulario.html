@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .formulario td {
+            border: 0px solid black;
+               
+        }
+
+        input {
+                width: 100%;
+                border: #4682b4 2px solid;
+                border-radius: 7px;
+                font-family: Arial, Helvetica, sans-serif;
+            
+        }
+
+        .campos {
+                text-align: left;
+        }
+
+        form {
+            position: absolute;
+                left: 43%;
+                width: 57%;
+                top: 28%;
+                height: 20%;
+        }
+
+        label{
+            width: 55%;
+            height: 40%;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <form >
+        <table class="formulario">
+            <tr>
+                <td class="campos"><label>Nome</label></td> <td><input type="text"></td>
+
+            </tr>
+
+            <tr>
+                <td class="campos"><label>Telefone</label></td> <td><input type="text"></td>
+            </tr>
+            
+            <tr>
+                <td class="campos"><label>Email</label></td> <td><input type="text"></td>
+            </tr>
+            <tr><td class="campos"><label>Estado</label></td> <td><select>
+                <option value="SP">SP</option>
+                <option value="MG">MG</option>
+                <option value="SC">SC</option>
+                <option value="BA">BA</option>
+            </td></tr>
+         
+        </table>
+    </form>
+    
+</body>
+</html>
